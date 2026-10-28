@@ -1,0 +1,11 @@
+52 ?- login
+|    .
+Enter username: ashwaq.
+Enter password: |: aaa.
+Login Unsuccessful
+You have 2 attempt(s) remaining. 
+
+Enter username: |: ashwaq.
+Enter password: |: am223.
+Login Successful
+true.

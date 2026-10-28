@@ -1,0 +1,15 @@
+43 ?- consult(['d:/CYS Courses/AI/Lab 10/Task1_geometry.pl']).
+true.
+
+44 ?- area_square(5,Area), perimeter_square(5,Perim).
+Area = 25,
+Perim = 20.
+
+45 ?- area_rectangle(4,6,Area), perimeter_rectangle(4,6,Perim).
+Area = 24,
+Perim = 20.
+
+46 ?- area_traingle(6,4,Area), perimeter_triangle(3,4,5,Perim).
+Correct to: "area_triangle(6,4,Area)"? yes
+Area = 12.0,
+Perim = 12.
